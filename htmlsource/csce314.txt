@@ -1,0 +1,293 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="en">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META HTTP-EQUIV="Pragma" NAME="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" NAME="Cache-Control" CONTENT="no-cache">
+<style>
+.bg1 {background-color: #e7ddcb;}
+
+.bg3 {background-color: #500000;}
+
+.bgtabon {background-color: #e7ddcb;}
+
+.bgtaboff {background-color: #A19579;}
+
+.texttabon {color: #000000;}
+
+.texttaboff {color: #500000;}
+
+td.tabon { background-color: #e7ddcb; color: #000000; }
+.tabon A:link { color: #000000; }
+.tabon A:visited { color: #000000; }
+.tabon A:active { color: #000000; }
+.tabon A:hover { color: #000000; }
+
+td.taboff { background-color: #A19579; color: #500000; }
+.taboff A:link { color: #500000; }
+.taboff A:visited { color: #500000;  }
+.taboff A:active { color: #500000;  }
+.taboff A:hover { color: #500000;  }
+
+.ChanBoxBg {background-image: url(/media/org/jasig/portal/channels/CUserPreferences/tab-column/channel/chan_box_bg.gif); background-color: #500000;}
+.setupBox {border:2px #e7ddcb solid;}
+
+</style>
+<LINK REL="stylesheet" HREF="/css/web_defaultapp.css" TYPE="text/css">
+<LINK REL="stylesheet" HREF="/css/web_defaultprint.css" TYPE="text/css" media="print">
+<TITLE>Look up Classes</TITLE>
+<META HTTP-EQUIV="Content-Script-Type" NAME="Default_Script_Language" CONTENT="text/javascript">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+window.onunload = function() {submitcount=0;}
+var submitcount=0;
+function checkSubmit() {
+if (submitcount == 0)
+   {
+   submitcount++;
+   return true;
+   }
+else
+   {
+alert("Your changes have already been submitted.");
+   return false;
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+//  Function to open a window
+function windowOpen(window_url) {
+   helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+   if (document.images) { 
+       if (helpWin) helpWin.focus()
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+</HEAD>
+
+          <script>
+          if(self==top){
+           // this means its in standalone SSB
+           document.write('<div style="margin-top: 70px;"></div>');
+           document.write('<body>'); // class=campuspipeline shows the header image
+          }
+          else
+          { // coming thorugh portal
+                    document.write('<style> DIV.pageheaderdiv1 {margin-top: 10px;} </style>');
+                    document.write('<body class="campuspipeline">'); // class=campuspipeline shows the header image
+          }
+          </script>
+          
+<DIV class="headerwrapperdiv">
+<DIV class="headerlinksdiv">
+</DIV>
+<TABLE  CLASS="plaintable" SUMMARY="This table displays Menu Items and Banner Search textbox."
+         WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+<DIV class="headerlinksdiv2">
+<FORM ACTION="/pls/PROD/twbksrch.P_ShowResults" METHOD="POST">
+Search
+<SPAN class="fieldlabeltextinvisible"><LABEL for=keyword_in_id><SPAN class="fieldlabeltext">Search</SPAN></LABEL></SPAN>
+<INPUT TYPE="text" NAME="KEYWRD_IN" SIZE="20" MAXLENGTH="65" ID="keyword_in_id">
+<INPUT TYPE="submit" VALUE="Go">
+</FORM>
+</div>
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext"></p>
+<SPAN class="pageheaderlinks">
+
+<script>
+if(self==top){
+ // this means its in standalone SSB
+ document.write('<div style="padding-top:1px;color:#F8CF66;margin-bottom:5px;padding-bottom:5px;position:relative;right: -85px;">&nbsp;</div>');
+}
+else{
+  //document.write('<span style="padding-top:25px;color:#F8CF66;margin-bottom:15px;padding-bottom:15px;position:absolute;right: 45px;">');
+  document.write('<div style="padding-top:25px;color:#F8CF66;margin-bottom:5px;padding-bottom:5px;position:relative;right: -85px;">');
+  document.write('<input style="background: none repeat scroll 0% 0% transparent;border: medium none; cursor: pointer; -moz-user-select: text; text-decoration: underline; color:Blue;font: bold 12px,helvetica,sans-serif;" type="button" value="Print" onClick="myprint()" />');
+  //document.write('</span><br clear="all" />'); 
+  document.write('</div>'); 
+}
+</script>
+
+</span>
+</TD>
+</TR>
+</TABLE>
+</DIV>
+<DIV class="pagetitlediv">
+<TABLE  CLASS="plaintable" SUMMARY="This table displays title and static header displays."
+   WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+<H2>Look up Classes</H2>
+</TD>
+<TD CLASS="pldefault">
+&nbsp;
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext"></p>
+<DIV class="staticheaders">
+T01173586 Christopher R. Schreiber<br/>
+Fall 2016 - College Station<br>
+May 12, 2016 12:45 pm<br>
+</div>
+</TD>
+</TR>
+<TR>
+<TD style="background-color:#500000;" width="100%" colSpan=3><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD>
+</TR>
+</TABLE>
+<a name="main_content"></a>
+</DIV>
+<DIV class="pagebodydiv">
+<!--  ** END OF twbkwbis.P_OpenDoc **  -->
+<FORM ACTION="/pls/PROD/bwykfreg.P_AltPin1?deviceType=C" METHOD="POST" onSubmit="return checkSubmit()">
+<INPUT TYPE="hidden" NAME="TERM_IN" VALUE="201631">
+<INPUT TYPE="hidden" NAME="sel_crn" VALUE="dummy">
+<INPUT TYPE="hidden" NAME="assoc_term_in" VALUE="dummy">
+<INPUT TYPE="hidden" NAME="ADD_BTN" VALUE="dummy">
+<fieldset style="font-size:12px;">
+<legend style="font-weight:bold;">INSTRUCTIONS</legend>
+<ul>
+<li><b>Class Restrictions:</b>  To view class restrictions, click on the Restrictions links.</li>
+<li><b>Course Catalog Entry:</b>  To view the course catalog entry for a course, please click on the subject.</li>
+</fieldset>
+<TABLE  CLASS="datadisplaytable" SUMMARY="This layout table is used to present the sections found" width="100%"><CAPTION class="captiontext">Sections Found</CAPTION>
+<TR>
+<TH COLSPAN="23" CLASS="ddtitle" scope="colgroup" >CSCE - Computer Sci & Engr</TH>
+</TR>
+<TR>
+<TH CLASS="ddheader" scope="col" >Select</TH>
+<TH CLASS="ddheader" scope="col" ><ACRONYM title = "Course Reference Number">CRN</ACRONYM></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = Subject>Subj</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = Course>Crse</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = Section>Sec</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = Campus>Cmp</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Credit Hours">Cred</ABBR></TH>
+<TH CLASS="ddheader" scope="col" >Title</TH>
+<TH CLASS="ddheader" scope="col" >Days</TH>
+<TH CLASS="ddheader" scope="col" >Time</TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Section Capacity">Cap</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Section Actual">Act</ABBR></TH>
+<TH CLASS="ddheader" scope="col" ><ABBR title = "Section Remaining">Rem</ABBR></TH>
+<TH CLASS="ddheader" scope="col" >Instructor <br />
+                      <span style="font-size:9px;font-weight:normal;">Click name to see CV</span></TH>
+<TH CLASS="ddheader" scope="col" >Date (<ABBR title = "month month">MM</ABBR>/<ABBR title = "day day">DD</ABBR>)</TH>
+<TH CLASS="ddheader" scope="col" >Location</TH>
+<TH CLASS="ddheader" scope="col" >Attribute</TH>
+</TR>
+<TR style="background-color:#FFFFCC">
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/PROD/bwykschd.p_disp_listcrse?term_in=201631&amp;subj_in=CSCE&amp;crse_in=314&amp;crn_in=22893&amp;deviceType=C" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">22893</A></TD>
+<TD CLASS="dddefault"><a href="bwykctlg.p_display_courses?term_in=201631&amp;one_subj=CSCE&amp;sel_crse_strt=314&amp;sel_crse_end=314&amp;sel_subj=&amp;sel_levl=&amp;sel_schd=&amp;sel_coll=&amp;sel_divs=&amp;sel_dept=&amp;sel_attr=">CSCE</a></TD>
+<TD CLASS="dddefault">314</TD>
+<TD CLASS="dddefault"><A HREF="/pls/PROD/bwykschd.p_disp_detail_sched?term_in=201631&amp;crn_in=22893" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">501</A></TD>
+<TD CLASS="dddefault">CS</TD>
+<TD CLASS="dddefault">3</TD>
+<td class="dddefault">PROGRAMMING LANGUAGES<span style="font-size: 11px;">
+</span>
+<span style="font-size: 11px;">
+<A HREF="/pls/PROD/bwykschd.p_disp_detail_sched?term_in=201631&amp;crn_in=22893" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true"><br />(Restrictions/Details)</A>
+</span>
+ </td>
+<TD CLASS="dddefault">TR</TD>
+<TD CLASS="dddefault">12:45 pm-02:00 pm</TD>
+<TD CLASS="dddefault">90</TD>
+<TD CLASS="dddefault">90</TD>
+<TD CLASS="dddefault">0</TD>
+<td class="dddefault">
+            <a href="http://faculty.cse.tamu.edu/hlee/cv-HyunyoungLee.pdf" target="_blank">Hyunyoung Lee</a> (<ABBR title= "Primary">P</ABBR>)
+            </td>
+<TD CLASS="dddefault">08/29-12/14</TD>
+<TD CLASS="dddefault">HRBB 124</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+</TR>
+</TR>
+<TR style="background-color:#FFFFFF">
+<TD CLASS="dddefault"><ABBR title = Closed>C</ABBR></TD>
+<TD CLASS="dddefault"><A HREF="/pls/PROD/bwykschd.p_disp_listcrse?term_in=201631&amp;subj_in=CSCE&amp;crse_in=314&amp;crn_in=24219&amp;deviceType=C" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">24219</A></TD>
+<TD CLASS="dddefault"><a href="bwykctlg.p_display_courses?term_in=201631&amp;one_subj=CSCE&amp;sel_crse_strt=314&amp;sel_crse_end=314&amp;sel_subj=&amp;sel_levl=&amp;sel_schd=&amp;sel_coll=&amp;sel_divs=&amp;sel_dept=&amp;sel_attr=">CSCE</a></TD>
+<TD CLASS="dddefault">314</TD>
+<TD CLASS="dddefault"><A HREF="/pls/PROD/bwykschd.p_disp_detail_sched?term_in=201631&amp;crn_in=24219" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true">502</A></TD>
+<TD CLASS="dddefault">CS</TD>
+<TD CLASS="dddefault">3</TD>
+<td class="dddefault">PROGRAMMING LANGUAGES<span style="font-size: 11px;">
+</span>
+<span style="font-size: 11px;">
+<A HREF="/pls/PROD/bwykschd.p_disp_detail_sched?term_in=201631&amp;crn_in=24219" onMouseOver="window.status='Detail';  return true" onFocus="window.status='Detail';  return true" onMouseOut="window.status='';  return true"onBlur="window.status='';  return true"><br />(Restrictions/Details)</A>
+</span>
+ </td>
+<TD CLASS="dddefault">MW</TD>
+<TD CLASS="dddefault">03:35 pm-04:50 pm</TD>
+<TD CLASS="dddefault">90</TD>
+<TD CLASS="dddefault">90</TD>
+<TD CLASS="dddefault">0</TD>
+<TD CLASS="dddefault"><ABBR title = "To Be Announced">TBA</ABBR></TD>
+<TD CLASS="dddefault">08/29-12/14</TD>
+<TD CLASS="dddefault">ETB 2005</TD>
+<TD CLASS="dddefault">&nbsp;</TD>
+</TR>
+</TR>
+</TABLE>
+<BR>
+<INPUT TYPE="submit" NAME="ADD_BTN" VALUE="Register">
+<INPUT TYPE="submit" NAME="ADD_BTN" VALUE="Add to WorkSheet">
+<INPUT TYPE="submit" NAME="ADD_BTN" VALUE="New Search">
+</FORM>
+ <SCRIPT LANGUAGE="JavaScript">
+       
+    <!--
+      function myprint() {
+        
+        window.print();
+        }
+       //--></script>
+
+<script>
+if(self==top){
+ // this means its in standalone SSB
+}
+else{
+  document.write('<span style="padding-top:25px;color:#F8CF66;margin-bottom:15px;padding-bottom:15px;position:absolute;right: 45px;">');
+  document.write('<input style="background: none repeat scroll 0% 0% transparent;border: medium none; cursor: pointer; -moz-user-select: text; text-decoration: underline; color:Blue;font: bold 12px,helvetica,sans-serif;" type="button" value="Print" onClick="myprint()" />');
+  document.write('</span>'); 
+}
+</script>
+
+
+<!--  ** START OF twbkwbis.P_CloseDoc **  -->
+<TABLE  CLASS="plaintable" SUMMARY="This is table displays line separator at end of the page."
+                                             WIDTH="100%" cellSpacing=0 cellPadding=0 border=0><TR><TD style="background-color:#e7ddcb;" width="100%" colSpan=2><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD></TR></TABLE>
+<A HREF="#top" onMouseover="window.status='Skip to top of page'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Skip to top of page'; return true" onBlur="window.status=''; return true" class="skiplinks">Skip to top of page</A>
+</DIV>
+<DIV class="footerbeforediv">
+
+</DIV>
+<DIV class="footerafterdiv">
+
+</DIV>
+<DIV class="globalafterdiv">
+
+</DIV>
+<DIV class="globalfooterdiv">
+
+</DIV>
+<DIV class="pagefooterdiv">
+</DIV>
+<DIV class="poweredbydiv">
+</DIV>
+<DIV class="div1"></DIV>
+<DIV class="div2"></DIV>
+<DIV class="div3"></DIV>
+<DIV class="div4"></DIV>
+<DIV class="div5"></DIV>
+<DIV class="div6"></DIV>
+<span style="font-size:9px; float:left;">
+6
+</span>
+</BODY>
+</HTML>
